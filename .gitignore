@@ -1,0 +1,47 @@
+# Build output and temporary packaging files
+dist/
+.singlefile_build/
+
+# AutoHotkey/compiler artifacts
+*.exe
+*.pdb
+*.zip
+
+# Generated icon source/output (keep the checked-in runtime icon.ico)
+1545.png
+AppIcon.ico
+
+# Editor and OS files
+.agents/
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
+
+# 本地工具和配置
+.agents/
+Ahk2Exe.exe
+
+# 编译输出
+dist/
+bin/
+obj/
+build/
+release/
+
+# Python 缓存（如果有）
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 临时文件和日志
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+
+# 本地编辑器设置（按需保留）
+.vscode/
